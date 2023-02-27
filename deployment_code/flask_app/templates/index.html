@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>Pneumonia Detection</title>
+    </head>
+    <body>
+        <h4>Pneumonia Detection</h4>
+        <p>Please select the dicom file for prediction</p>
+        <form action="/Pneumonia-Detection-input-file/Pneumonia-Detection-result" enctype="multipart/form-data" method="POST">
+            <input type="file" name="files[]" multiple="true" autocomplete="off" required>
+            <input type="submit" value="Upload">
+        </form>
+    </body>
+</html>
